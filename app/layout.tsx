@@ -17,6 +17,15 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "TenStream - Your Ultimate Streaming Experience",
   description: "TenStream is a powerful mobile streaming application for movies and TV series",
+  icons: {
+    icon: [
+      { url: '/app-icon.png', sizes: 'any' },
+      { url: '/app-icon.png', type: 'image/png' },
+    ],
+    apple: [
+      { url: '/app-icon.png', sizes: '180x180', type: 'image/png' },
+    ],
+  },
 };
 
 export default function RootLayout({
